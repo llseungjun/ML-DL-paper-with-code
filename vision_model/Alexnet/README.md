@@ -41,17 +41,22 @@ AlexNet 이전에는 HOG나 SIFT 방법으로 이미지의 특징을 추출하�
    </p>
 
    
-   $$
-   \begin{aligned}
-   b^{i}_{x,y} &: \text{LRN한 Activation 결과} \\
-   a^{i}_{x,y} &: \text{Activation 결과} \\
-   i &: \text{현재 Filter} \\
-   n &: \text{고려해야 하는 Filter 개수} \\
-   N &: \text{총 Filter 개수} \\
-   k, \alpha, \beta &: \text{Hyperparameters (논문에서는 2, 0.0001, 0.75가 가장 좋다고 함)}
-   \end{aligned}
-   $$
+   <div align="center">
 
+
+   $b^{i}_{x,y}$ : LRN한 Activation 결과   
+   
+   $a^{i}_{x,y}$ : Activation 결과  
+   
+   $i$  : 현재 Filter  
+   
+   $n$ : 고려해야 하는 Filter 개수  
+   
+   $N$ : 총 Filter 개수  
+   
+   $k, \alpha, \beta$ : Hyperparameters(논문에서는 2, 0.0001, 0.75가 가장 좋다고 함)
+    
+   </div>
 
    <p align="center">
       <img src="./img/LRN_architecture.png" alt="LRN architecture">
