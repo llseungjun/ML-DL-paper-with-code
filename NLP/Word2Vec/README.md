@@ -17,3 +17,4 @@
 ## reference
 - [NLP | 논문리뷰] Efficient Estimation of Word Representations in Vector Space : https://velog.io/@xuio/NLP-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-Sequence-to-Sequence-Learning-with-Neural-Networks-xikn77tw
 -  네거티브 샘플링을 이용한 Word2Vec 구현(Skip-Gram with Negative Sampling, SGNS) : https://wikidocs.net/69141
+
