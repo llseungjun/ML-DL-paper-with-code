@@ -1,12 +1,11 @@
 from PIL import Image
 import torchvision.transforms as transforms
-import torch
 
 # 이미지 전처리 변환 정의
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+    transforms.Normalize(mean=[0.4914, 0.4822, 0.4465], std=[0.247, 0.243, 0.261])
 ])
 
 def preprocess_image(image_path, device):

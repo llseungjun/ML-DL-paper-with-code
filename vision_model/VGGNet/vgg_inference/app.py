@@ -8,7 +8,7 @@ st.set_page_config(page_title="VGG Image Classifier", layout="centered")
 
 # 모델 로드
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model = load_model()
+model = load_model() # argument를 default로 설정
 
 # 제목
 st.title("🔍 VGG Image Classifier")
