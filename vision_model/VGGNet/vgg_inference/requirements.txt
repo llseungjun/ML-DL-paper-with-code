@@ -1,8 +1,8 @@
 numpy==1.24.4
 opencv-python==4.10.0.84
-pandas @ file:///C:/b/abs_b9kefbuby2/croot/pandas_1677835593760/work
 streamlit==1.39.0
 torch==2.5.1
 torchvision==0.20.1
 tqdm==4.66.6
+
 
