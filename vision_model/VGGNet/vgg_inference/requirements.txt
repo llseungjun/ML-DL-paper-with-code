@@ -1,8 +1,7 @@
+setuptools>=58.0.0  # distutils 포함
 numpy==1.24.4
-opencv-python==4.10.0.84
+opencv-python==4.5.5.64  # 안정적인 버전으로 변경
 streamlit==1.39.0
 torch==2.5.1
 torchvision==0.20.1
 tqdm==4.66.6
-
-
