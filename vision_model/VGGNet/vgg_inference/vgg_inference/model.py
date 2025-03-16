@@ -4,7 +4,7 @@ from .custom_model import VGGNet, VGG_with_BN, VGG11
 # GPU 사용 가능 여부 확인
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def load_model(model_name="VGG11",num_classes=10,model_path="../VGG11_best.pth"):
+def load_model(model_name="VGG11",num_classes=10,model_path="./VGG11_best.pth"):
     # VGG16, VGG batchnorm 중에서 선택
     if model_name == "VGGNet":
         model = VGGNet(num_classes = num_classes).to(device)
