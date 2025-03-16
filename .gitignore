@@ -1,4 +1,4 @@
-*.pth
+# *.pth
 *.jpg
 *.png
 *.jpeg
