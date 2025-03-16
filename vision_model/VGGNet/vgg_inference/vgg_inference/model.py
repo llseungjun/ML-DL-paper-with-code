@@ -17,7 +17,7 @@ def load_model(model_name="VGG11",num_classes=10,model_path="./VGG11_best.pth"):
     if model_path:
         import requests
 
-        url = "https://raw.githubusercontent.com/llseungjun/VGG11_best.pth"  # GitHub URL
+        url = "https://raw.githubusercontent.com/llseungjun/ML-DL-paper-with-code/main/vision_model/VGGNet/vgg_inference/VGG11_best.pth"  # GitHub URL
         model_path = "VGG11_best.pth"
 
         # 모델 다운로드
