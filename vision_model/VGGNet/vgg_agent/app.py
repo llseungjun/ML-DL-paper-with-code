@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from vgg_inference import load_model, predict, preprocess_image, get_label_name
+from src import load_model, predict, preprocess_image, get_label_name
 import torch
 
 # Streamlit 페이지 설정
