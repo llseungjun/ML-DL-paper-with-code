@@ -1,4 +1,5 @@
-# *.pth
+*.pth
 *.jpg
 *.png
 *.jpeg
+*.pyc

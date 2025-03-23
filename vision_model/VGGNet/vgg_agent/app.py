@@ -20,7 +20,7 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg
 if uploaded_file is not None:
     # 이미지 표시
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image", use_container_width=True)
     
     # 이미지 추론 버튼
     if st.button("Classify Image"):
