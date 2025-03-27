@@ -1,4 +1,5 @@
-**VGGNet 발표 영상**
+**VGGNet 발표 영상**  
+
 [![Watch the video](https://img.youtube.com/vi/Tj5xxUjR_bQ/0.jpg)](https://youtu.be/5jeWxRjBtSQ)
 
 1. **프로젝트 개요**  
