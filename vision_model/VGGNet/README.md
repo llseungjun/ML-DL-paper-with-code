@@ -1,5 +1,5 @@
 **VGGNet 발표 영상**
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=5jeWxRjBtSQ&ab_channel=chwijunNeutggagee_%28%EB%8A%A6%EA%B9%8D%EC%9D%B4%EC%B7%A8%EC%A4%80%29))
+[![Watch the video](https://img.youtube.com/vi/Tj5xxUjR_bQ/0.jpg)](https://youtu.be/5jeWxRjBtSQ)
 
 1. **프로젝트 개요**  
    Streamlit을 활용하여 VGGNet 기반 이미지 분류를 수행하는 Proof of Concept(POC) 프로젝트입니다.  
