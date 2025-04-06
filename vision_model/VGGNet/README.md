@@ -1,3 +1,7 @@
+**VGGNet 발표 영상**  
+
+[![Watch the video](https://img.youtube.com/vi/Tj5xxUjR_bQ/0.jpg)](https://youtu.be/5jeWxRjBtSQ)
+
 1. **프로젝트 개요**  
    Streamlit을 활용하여 VGGNet 기반 이미지 분류를 수행하는 Proof of Concept(POC) 프로젝트입니다.  
 사용자가 이미지를 업로드하면 사전 학습된 VGGNet 모델을 통해 분류 결과를 반환합니다.   
